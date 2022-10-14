@@ -1,0 +1,69 @@
+.nv{
+    background-image:  linear-gradient(-270deg, #087EE1, #05E8BA);
+}
+.ft-aleo 
+{
+    font-family: 'Noto Sans', sans-serif;
+}
+.theme {
+    color: #04341c;
+  }
+  .theme3 {
+    color: #113d27;
+  }
+.theme2{
+    color: #3f9056;
+}
+.gradient-custom {
+   background-color:  #8fc4b7;
+}
+.gradient-custom1 {
+    background-color:  skyblue;
+ }
+.footer-th {
+    position: relative;
+    color: rgba(229, 227, 227, 0.823);
+    padding: 2rem 0;
+    background-color: #141d2a;
+}
+.ac{
+    color: #fff;
+}
+    
+    
+
+.list-bullets {
+    list-style: none;
+}
+
+.list-bullets li {
+    display: flex;
+    align-items: center;
+}
+
+.list-bullets li::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #5784d7;
+    border: 2px solid #8fb3f5;
+    display: block;
+    margin-right: 1rem;
+}
+
+ol.custom-numbers {
+    list-style: none;
+}
+
+ol.custom-numbers li {
+    counter-increment: my-awesome-counter;
+}
+
+ol.custom-numbers li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #2b90d9;
+    font-weight: bold;
+}
+
+
